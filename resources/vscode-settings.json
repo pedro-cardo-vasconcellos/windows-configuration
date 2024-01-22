@@ -1,0 +1,74 @@
+{
+  "breadcrumbs.enabled": false,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.fontFamily": "'CommitMono Nerd Font'",
+  "editor.fontSize": 14,
+  "editor.hover.enabled": true,
+  "editor.lineHeight": 28,
+  "editor.minimap.enabled": false,
+  "editor.parameterHints.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.smoothScrolling": true,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "explorer.excludeGitIgnore": true,
+  "explorer.sortOrder": "type",
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "onFocusChange",
+  "json.format.keepLines": true,
+  "security.workspace.trust.enabled": false,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "'CommitMono Nerd Font'",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.smoothScrolling": true,
+  "window.menuBarVisibility": "hidden",
+  "window.newWindowDimensions": "maximized",
+  "window.restoreWindows": "none",
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.showTabs": "single",
+  "workbench.editor.navigationScope": "editor",
+  "workbench.iconTheme": "vs-minimal",
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": false,
+
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+
+  "notebook.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.unicodeHighlight.nonBasicASCII": true,
+    "editor.codeActionsOnSave": { "source.organizeImports": "explicit" }
+  },
+
+  // bierner.markdown-preview-github-styles
+  "markdown-preview-github-styles.colorTheme": "light",
+
+  // ms-python.python
+  "python.analysis.diagnosticMode": "openFilesOnly",
+  "python.analysis.typeCheckingMode": "basic",
+
+  // ms-python.black-formatter
+  "black-formatter.args": [ "--line-length", "99" ],
+  "black-formatter.importStrategy": "fromEnvironment",
+
+  // ms-python.isort
+  "isort.args": [ "--profile", "black", "--line-length", "99" ],
+
+  // ms-toolsai.jupyter
+  "jupyter.askForKernelRestart": false,
+
+  // tamasfe.even-better-toml
+  "evenBetterToml.formatter.arrayAutoExpand": false,
+
+  // streetsidesoftware.code-spell-checker
+  // streetsidesoftware.code-spell-checker-portuguese-brazilian
+  "cSpell.language": "en, pt_br"
+}

@@ -1,0 +1,141 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions":
+    [
+        {
+            "command":
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+shift+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+shift+v"
+        },
+        {
+            "command": "selectAll",
+            "keys": "ctrl+shift+a"
+        }
+    ],
+    "centerOnLaunch": true,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{2a6a8cb5-5e4f-4f11-a075-0c874251ceb1}",
+    "launchMode": "default",
+    "newTabMenu":
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles":
+    {
+        "defaults":
+        {
+            "colorScheme": "Dark Pastel",
+            "font":
+            {
+                "face": "CommitMono Nerd Font"
+            },
+            "opacity": 80,
+            "padding": "10",
+            "useAcrylic": true
+        },
+        "list":
+        [
+            {
+                "commandline": "%ProgramFiles%\\PowerShell\\7\\pwsh.exe",
+                "guid": "{2a6a8cb5-5e4f-4f11-a075-0c874251ceb1}",
+                "hidden": false,
+                "icon": "%USERPROFILE%\\Repos\\windows-configuration\\resources\\icon-powershell.png",
+                "name": "PowerShell",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\wsl.exe -d Debian",
+                "guid": "{b3198299-824c-49f9-93b2-aabc2212db1c}",
+                "hidden": false,
+                "icon": "%USERPROFILE%\\Repos\\windows-configuration\\resources\\icon-debian.png",
+                "name": "Debian",
+                "startingDirectory": "~"
+            }
+        ]
+    },
+    "schemes":
+    [
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#5555FF",
+            "brightBlack": "#555555",
+            "brightBlue": "#5555FF",
+            "brightCyan": "#55FFFF",
+            "brightGreen": "#55FF55",
+            "brightPurple": "#FF55FF",
+            "brightRed": "#FF5555",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFF55",
+            "cursorColor": "#BBBBBB",
+            "cyan": "#55FFFF",
+            "foreground": "#FFFFFF",
+            "green": "#55FF55",
+            "name": "Dark Pastel",
+            "purple": "#FF55FF",
+            "red": "#FF5555",
+            "selectionBackground": "#B5D5FF",
+            "white": "#BBBBBB",
+            "yellow": "#FFFF55"
+        },
+        {
+            "background": "#1E1E1E",
+            "black": "#000000",
+            "blue": "#2472C8",
+            "brightBlack": "#666666",
+            "brightBlue": "#3B8EEA",
+            "brightCyan": "#29B8DB",
+            "brightGreen": "#23D18B",
+            "brightPurple": "#D670D6",
+            "brightRed": "#F14C4C",
+            "brightWhite": "#E5E5E5",
+            "brightYellow": "#F5F543",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#11A8CD",
+            "foreground": "#CCCCCC",
+            "green": "#0DBC79",
+            "name": "Dark+",
+            "purple": "#BC3FBC",
+            "red": "#CD3131",
+            "selectionBackground": "#3A3D41",
+            "white": "#E5E5E5",
+            "yellow": "#E5E510"
+        },
+        {
+            "background": "#0E0E0E",
+            "black": "#000000",
+            "blue": "#2472C8",
+            "brightBlack": "#666666",
+            "brightBlue": "#3B8EEA",
+            "brightCyan": "#29B8DB",
+            "brightGreen": "#23D18B",
+            "brightPurple": "#D861D8",
+            "brightRed": "#FA4B4B",
+            "brightWhite": "#FAFAFA",
+            "brightYellow": "#FCFC5C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#33A0BB",
+            "foreground": "#E4E4E4",
+            "green": "#0DBC79",
+            "name": "OneStar",
+            "purple": "#C42CC4",
+            "red": "#D13B3B",
+            "selectionBackground": "#FFFFFF",
+            "white": "#F1F1F1",
+            "yellow": "#DFDF44"
+        }
+    ],
+    "themes": [ ],
+    "useAcrylicInTabRow": true
+}
