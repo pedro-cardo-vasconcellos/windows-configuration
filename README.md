@@ -37,7 +37,7 @@ winget install --id "Microsoft.WindowsTerminal" --source "winget"
 Instale o [Scoop](https://scoop.sh).
 
 ```powershell
-Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+Invoke-RestMethod -Uri "https://get.scoop.sh" | Invoke-Expression
 ```
 
 Instale os _softwares_ listados abaixo, utilizando o Scoop.
@@ -67,8 +67,8 @@ Adicione ao registro do Windows as _keys_ referentes aos _softwares_ acima, util
 Abra o PowerShell como administrador e instale os _softwares_ abaixo utilizando o Scoop.
 
 ```powershell
-scoop bucket add nonportable
-scoop install nonportable/file-converter-np
+scoop bucket add "nonportable"
+scoop install "nonportable/file-converter-np"
 ```
 
 ## WSL
@@ -83,12 +83,12 @@ Atualize o WSL e instale a distribuição Debian do Linux.
 
 ```powershell
 wsl --update
-wsl --install --distribution Debian
+wsl --install --distribution "Debian"
 ```
 
 ## _Configurations_
 
-Clone esse repositório no caminho ```~\Repos\windows-configurations\```.
+Clone esse repositório no caminho `~\Repos\windows-configurations\`.
 
 ```powershell
 New-Item -Path "~\" -Name "Repos" -ItemType "Directory" -Force
@@ -96,7 +96,7 @@ Set-Location -Path "~\Repos\"
 git clone "https://github.com/pedro-cardo-vasconcellos/windows-configuration.git"
 ```
 
-Execute os _scripts_ do diretório ```powershell\``` para configurar o Windows e os _softwares_ instalados.
+Execute os _scripts_ do diretório `powershell\` para configurar o Windows e os _softwares_ instalados.
 
 ```powershell
 Set-Location -Path "~\Repos\windows-configuration\powershell"
