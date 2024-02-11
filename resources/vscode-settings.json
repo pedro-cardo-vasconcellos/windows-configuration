@@ -34,13 +34,13 @@
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": false,
 
-  "files.associations": {
-    "*.json": "jsonc"
-  },
+  "files.associations": { "*.json": "jsonc" },
 
-  "notebook.codeActionsOnSave": {
-    "source.organizeImports": "explicit"
-  },
+  "notebook.codeActionsOnSave": { "source.organizeImports": "explicit" },
+
+  "[json]": { "editor.defaultFormatter": "vscode.json-language-features" },
+
+  "[jsonc]": { "editor.defaultFormatter": "vscode.json-language-features" },
 
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
@@ -50,6 +50,9 @@
 
   // bierner.markdown-preview-github-styles
   "markdown-preview-github-styles.colorTheme": "light",
+
+  // esbenp.prettier-vscode
+  "[markdown]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
 
   // ms-python.python
   "python.analysis.diagnosticMode": "openFilesOnly",
