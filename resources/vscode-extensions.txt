@@ -1,5 +1,7 @@
+adpyke.vscode-sql-formatter
 bierner.markdown-preview-github-styles
 DavidAnson.vscode-markdownlint
+esbenp.prettier-vscode
 GrapeCity.gc-excelviewer
 mdebi.fstring-converter
 mechatroner.rainbow-csv
