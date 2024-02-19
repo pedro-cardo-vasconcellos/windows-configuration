@@ -42,17 +42,21 @@
 
   "[jsonc]": { "editor.defaultFormatter": "vscode.json-language-features" },
 
+  "[markdown]": { "editor.defaultFormatter": "DavidAnson.vscode-markdownlint" },
+
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.unicodeHighlight.nonBasicASCII": true,
     "editor.codeActionsOnSave": { "source.organizeImports": "explicit" }
   },
 
+  "[sql]": { "editor.defaultFormatter": "adpyke.vscode-sql-formatter" },
+
+  // adpyke.vscode-sql-formatter
+  "sql-formatter.uppercase": true,
+
   // bierner.markdown-preview-github-styles
   "markdown-preview-github-styles.colorTheme": "light",
-
-  // esbenp.prettier-vscode
-  "[markdown]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
 
   // ms-python.python
   "python.analysis.diagnosticMode": "openFilesOnly",
